@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.each {| type, food| return food.min}
+  groceries.values
 end
